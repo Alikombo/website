@@ -15,6 +15,44 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" />
+        <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" referrerpolicy="no-referrer" rel="stylesheet" />
+
+        <style>
+
+.whatsapp-cta-container {
+            position: fixed;
+            bottom: 20px;
+            right: 25px;
+        }
+
+        .whatsapp-cta-container * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .whatsapp-cta-container a {
+            position: relative;
+            text-decoration: none;
+            font-size: 25px;
+            color: #50f366;
+            display: inline-flex;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            background: rgb(0, 0, 0);
+            box-shadow: 0 0 10px #000a;
+            border: 2px solid #50f366;
+            z-index: 9999;
+            transition: 0.3s;
+        }
+
+        .whatsapp-cta-container a:hover {
+            transform: scale(1.1) translate(-2px, -3px) rotateZ(-10deg);
+        }
+        </style>
     
     </head>
     <body>
@@ -74,16 +112,13 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <b><center><h2>CONTACT US</h2></center></b> 
-                        <p>you can send me a message on info@hassankite.com or add me on Whatsapp +255 772 668 188</p>
-                       <a href="https://wa.me/255672551987">Whatsapp</a>
-
-
-                       <a href="https://api.whatsapp.com/send?phone=255672551987">Send Message</a>
+                        <p>you can send me a message on info@hassankite.com</p>
+                      
                        
-
+                       <div class="whatsapp-cta-container">
+                        <a href="https://api.whatsapp.com/send?phone=255772668188" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
                        
-
-<a href="tel:255672551987">add number</a>  
 
                     </div>
                 </div>
