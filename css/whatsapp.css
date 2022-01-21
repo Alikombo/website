@@ -1,0 +1,34 @@
+
+.whatsapp-cta-container {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+}
+
+.whatsapp-cta-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whatsapp-cta-container a {
+    position: relative;
+    text-decoration: none;
+    font-size: 25px;
+    color: #50f366;
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #000a;
+    border: 2px solid #50f366;
+    z-index: 9999;
+    transition: 0.3s;
+}
+
+.whatsapp-cta-container a:hover {
+    transform: scale(1.1) translate(-2px, -3px) rotateZ(-10deg);
+}
